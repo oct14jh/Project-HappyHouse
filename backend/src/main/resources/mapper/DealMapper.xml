@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.mappers.DealMapper">
+	<!--법정동내 매물 조회-->
+	<select id="selectDeals" resultType="com.ssafy.happyhouse.deal.dto.DealDTO">
+		select *
+		  from housedeal
+		 where dong = #{dong}
+		order by dealYear desc, dealMonth desc, dealDay desc
+	</select>
+
+	<!--모든 매물 조회-->
+	<select id="selectAllDeals" resultType="com.ssafy.happyhouse.deal.dto.DealDTO">
+		select *
+		  from housedeal
+		order by dealYear desc, dealMonth desc, dealDay desc
+	</select>
+
+	<!--관심 매물 조회-->
+	<select id="selectBookmarkDeal" resultType="com.ssafy.happyhouse.deal.dto.DealDTO">
+		select *
+		from housedeal 
+		where no in (select no 
+						from bookmark
+							 where user_id=#{userId})
+	</select>
+
+	<!--법정동내 가격기준 top 10 아파트-->
+	<select id="selectTopAptByDong" parameterType="string" resultType="com.ssafy.happyhouse.deal.dto.DealDTO">
+		select dealAmount,AptName
+		from housedeal
+		where dong LIKE CONCAT('%',#{dong},'%')
+		group by AptName
+		order by dealAmount desc
+		LIMIT 0,20;
+	</select>
+		
+		
+</mapper>
