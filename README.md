@@ -136,39 +136,38 @@
 
 ### 1. 유저 로그인 기능
 
-![img.png](C:/Git_oct14jh/Projects/Happy House/img/img.png)
+![img.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img.png)
 
 ### 2. 공지사항 기능
 
-![img_1.png](C:/Git_oct14jh/Projects/Happy House/img/img_1.png)
+![img_1.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_1.png)
 
 ### 3. 아파트 거래 관련 기능
 
-![img_2.png](C:/Git_oct14jh/Projects/Happy House/img/img_2.png)
+![img_2.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_2.png)
     
 
 ### 4. 관심지역, 관심매물 기능
 
-![img_3.png](C:/Git_oct14jh/Projects/Happy House/img/img_3.png)
+![img_3.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_3.png)
 
 ### 5. 안심병원 기능
 
-![img_5.png](C:/Git_oct14jh/Projects/Happy House/img/img_5.png)
+![img_5.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_5.png)
 
 ### 6. 주변 보건소 기능
 
-![img_6.png](C:/Git_oct14jh/Projects/Happy House/img/img_6.png)
+![img_6.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_6.png)
 
 ### 7. 지도,위치 관련 기능
 
 법정동,시도군구 코드가 제공되는 공공데이터별로 달라 이에 대응하기위해 기능 별로 올바른 시도군구코드를 반환할 수 있게 별도의 클래스로 구성되어있습니다.
 
 
-![img_7.png](C:/Git_oct14jh/Projects/Happy House/img/img_7.png)
+![img_7.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_7.png)
 
-![img_4.png](C:/Git_oct14jh/Projects/Happy House/img/img_4.png)
+![img_4.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_4.png)
 
 ### 8 . 회원 관리 기능
 
-![img_8.png](C:/Git_oct14jh/Projects/Happy House/img/img_8.png)
-
+![img_8.png](C:/Git_oct14jh/Projects/Happy House/backend/img/img_8.png)
